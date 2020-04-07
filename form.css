@@ -1,0 +1,91 @@
+.head,.password,.facebook,.google,.signin,.epam
+{
+		font-family:sans-serif;
+}
+.head{
+	background-color: #00e6e6;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border: none;
+    width:100%;
+	text-align:center;
+}
+	
+.mail,.password{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 4px 8px;
+  border: 1px solid #a6a6a6;
+  background: white;
+}
+.signin{
+background-color: #00e6e6;
+    color: white;
+    padding: 10px 20px;
+    margin-top:30px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius: 8px;
+	text-align:center;
+	margin-left:8px;
+}
+.facebook{
+background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius: 8px;
+	font-size: 15px;
+}
+.google{
+background-color: #DB4437;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.epam
+{
+	background-color: #c8cf30;
+    color: white;
+    padding: 10px 20px;
+	margin:4px 8px;
+    margin-top: 30px;
+    border: none;
+    width: 96%;
+	border-radius: 8px;
+	font-size: 15px;
+	text-align:center;
+}
+a:link {
+    text-decoration: none;
+}
+.forget{
+	color:black;	
+	float:left;
+	margin:4px 8px;
+}
+.register{
+	color:black;
+	float:right;
+	margin:8px	4px;
+}
+h4:before, h4:after {
+     content: " ";
+     flex: 1 1;
+     border-bottom: 1px solid #000;
+     margin:8px 8px ;
+}
+h4 { 
+    display: flex; 
+    flex-direction: row;
+} 
